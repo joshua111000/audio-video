@@ -20,5 +20,5 @@ def main():
     else:
         os.system('mv {0} {1}'. format(location, renametomp3))
     
-if _name_ == '__main__':
+if __name__ == '__main__':
     main()
